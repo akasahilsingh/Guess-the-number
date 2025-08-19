@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container {
+/* border: 2px solid black; */
+max-width: 600px;
+height: 400px;
+border-radius: 10px ;
+box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+margin: 50px auto;
+padding-top: 50px;
+}
+
+.input {
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #e2e8f0;
+    outline: none;
+    text-indent: 10px;
+    margin: 5px 0;
+}
+
+.input:focus {
+    border: 1px solid #8806CE;
+}
+
+.input::placeholder {
+    color: grey;
+    text-indent: 10px;
+}
+
+
+.btn-container {
+    display: flex;
+    
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 40px auto 10px;
+    align-items: flex-start;
+}
+button {
+    height: 40px;
+    width: 100px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #8806CE;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d6b4fc;
+}
+
+.result-container {
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 90%;
+    text-align: left;
+}
+
+.guesses {
+    margin: auto;
+    width: 90%;
+    text-align: left;
+}
