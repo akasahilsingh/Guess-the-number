@@ -75,6 +75,7 @@ newGameBtn.addEventListener("click", () => {
   resultArr.splice(0, resultArr.length);
   chance = 10;
   compGuess = Math.floor(Math.random() * 101);
+  guessesMsg.innerHTML = "";
 });
 
 window.addEventListener("keydown", (e) => {
