@@ -2,6 +2,10 @@
 
 A simple browser-based **number guessing game** built with HTML, CSS, and JavaScript.
 
+## 🎮 Play the Game
+[![Play Game](https://img.shields.io/badge/Play-Now-green?style=for-the-badge&logo=github)](https://guess-the-number-six-topaz.vercel.app/)
+
+
 ## 🚀 Features
 - Random number between **0 and 100**
 - **10 attempts** to guess correctly
@@ -18,7 +22,7 @@ A simple browser-based **number guessing game** built with HTML, CSS, and JavaSc
 - **Vanilla JavaScript** (DOM manipulation & game logic)
 
 ## 📷 Screenshot
-![Game Screenshot](screenshot.png) <!-- you can add your own screenshot later -->
+![Game Screenshot](screenshot.png) 
 
 ## ⚡ How to Play
 1. Enter a number between **0 and 100**.
