@@ -30,4 +30,8 @@ A simple browser-based **number guessing game** built with HTML, CSS, and JavaSc
 ## 🛠️ Setup
 Clone this repository:
 ```sh
-git clone https://github.com/your-username/guess-the-number.git
+git clone https://github.com/akasahilsingh/guess-the-number.git
+
+## 📜 License
+This project is licensed under the MIT License.
+
