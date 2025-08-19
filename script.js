@@ -38,6 +38,8 @@ const numGuess = () => {
     submitGuessBtn.style.cursor = "not-allowed";
     submitGuessBtn.style.backgroundColor = "lightgrey";
     submitGuessBtn.disabled = true;
+    input.disabled = true;
+    input.style.cursor = "not-allowed";
   } else if (chance < 1) {
     resultContainer.innerHTML = `<p>Game over! The number was ${compGuess}.</p>`;
     newGameBtn.style.cursor = "pointer";
